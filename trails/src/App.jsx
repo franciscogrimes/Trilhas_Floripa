@@ -1,5 +1,4 @@
 import CardTrilha from "./components/CardTrilha";
-import PropTypes from "prop-types";
 
 function App() {
   const listaTrilhas = [
@@ -7,17 +6,16 @@ function App() {
       nome: "Morro do Cambirela",
       cidade: "Palhoça",
       estado: "SC",
-      duracao: "150",
+      duracao: 150,
       dificuldade: "dificil",
-      tipo: "Caminhada/ Running",
-      url: "./assets/cambirela.jpg",
+      url: "https://images.pexels.com/photos/5036668/pexels-photo-5036668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
 
   return (
     <>
       {listaTrilhas.map((trilha, index) => {
-        <CardTrilha dadosTrilha={trilha} key={index} />;
+        return <CardTrilha dadosTrilha={trilha} key={index} />;
       })}
     </>
   );
