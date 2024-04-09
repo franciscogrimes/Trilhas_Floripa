@@ -1,9 +1,9 @@
 function navbarTrail() {
   return (
-    <div>
+    <div className="container">
       <h3>Adventure Trails FD</h3>
 
-      <div>
+      <div className="content">
         <h3>Explorar trilhas</h3>
         <h3>Cadastrar trilhas</h3>
       </div>

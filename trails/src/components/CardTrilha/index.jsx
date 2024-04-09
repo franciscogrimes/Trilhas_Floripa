@@ -1,5 +1,3 @@
-import navbarTrail from "./navbarTrail";
-
 function CardTrilha({ dadosTrilha }) {
   return (
     <div>
