@@ -1,0 +1,33 @@
+[
+  {
+    "nome": "Morro do Cambirela",
+    "cidade": "Palhoça",
+    "estado": "SC",
+    "duracao": 150,
+    "distancia": 4,
+    "dificuldade": "dificil",
+    "tipo": "Caminhada/ Running",
+    "url": "https://trilhasemsc.com.br/public/img/trilhas/descricao/trilha-do-morro-do-cambirela/subida-de-pedras.jpg"
+  },
+
+  {
+    "nome": "Trilha da Costa da Lagoa",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "duracao": 150,
+    "distancia": 7.5,
+    "dificuldade": "média",
+    "tipo": "Caminhada/ Running",
+    "url": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/nyfpawdbrmkyedvekmw7"
+  },
+  {
+    "nome": "Trilha Praia da Lagoinha do Leste",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "duracao": 120,
+    "distancia": 7,
+    "dificuldade": "dificil",
+    "tipo": "Caminhada/ Running",
+    "url": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/rh18tvbjfxmdfntdrsdb"
+  }
+]
