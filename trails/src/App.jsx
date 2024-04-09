@@ -1,23 +1,22 @@
+import React from "react";
 import CardTrilha from "./components/CardTrilha";
-import PropTypes from "prop-types";
+import useTrilhas from "../src/Hooks/trilhas";
 
 function App() {
-  const listaTrilhas = [
-    {
-      nome: "Morro do Cambirela",
-      cidade: "Palhoça",
-      estado: "SC",
-      duracao: "150",
-      dificuldade: "dificil",
-      tipo: "Caminhada/ Running",
-      url: "./assets/cambirela.jpg",
-    },
-  ];
+  const { trilhas, isLoading, error } = useTrilhas();
+
+  if (isLoading) {
+    return <div>Carregando...</div>;
+  }
+
+  if (error) {
+    return <div>Erro: {error.message}</div>;
+  }
 
   return (
     <>
-      {listaTrilhas.map((trilha, index) => {
-        <CardTrilha dadosTrilha={trilha} key={index} />;
+      {trilhas.map((trilha, index) => {
+        return <CardTrilha dadosTrilha={trilha} key={index} />;
       })}
     </>
   );
