@@ -1,6 +1,10 @@
+import PropTypes from "prop-types";
+import NavBarTrail from "./navbarTrail";
+
 function CardTrilha({ dadosTrilha }) {
   return (
     <div>
+      <NavBarTrail />
       <div>
         <img width={200} src={dadosTrilha.url} alt="Imagem da Trilha" />
       </div>
