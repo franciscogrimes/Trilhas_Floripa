@@ -1,0 +1,18 @@
+.container {
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid;
+  padding-left: 10px;
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cardData {
+  padding: 20px;
+}
