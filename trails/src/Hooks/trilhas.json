@@ -5,9 +5,10 @@
     "estado": "SC",
     "duracao": 150,
     "distancia": 4,
-    "dificuldade": "dificil",
+    "dificuldade": "Alta",
     "tipo": "Caminhada/ Running",
-    "url": "https://trilhasemsc.com.br/public/img/trilhas/descricao/trilha-do-morro-do-cambirela/subida-de-pedras.jpg"
+    "criador": "Francisco Grimes",
+    "url": "https://trilhasconectam.com.br/wp-content/uploads/2019/04/trilhas-morro-cambirela-palho%C3%A7a-santa-catarina-mountais-turismo8.jpg"
   },
 
   {
@@ -18,16 +19,18 @@
     "distancia": 7.5,
     "dificuldade": "média",
     "tipo": "Caminhada/ Running",
-    "url": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/nyfpawdbrmkyedvekmw7"
+    "criador": "Joãozinho Hummer",
+    "url": "https://s2.wklcdn.com/image_47/1422181/18057662/11394710.jpg"
   },
   {
-    "nome": "Trilha Praia da Lagoinha do Leste",
+    "nome": "Trilha Praia da Lagoinha",
     "cidade": "Florianópolis",
     "estado": "SC",
     "duracao": 120,
     "distancia": 7,
-    "dificuldade": "dificil",
+    "dificuldade": "Alta",
     "tipo": "Caminhada/ Running",
+    "criador": "Francisco Grimes",
     "url": "https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/rh18tvbjfxmdfntdrsdb"
   }
 ]
