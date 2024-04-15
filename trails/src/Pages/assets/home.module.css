@@ -35,10 +35,10 @@
   flex-direction: column;
   gap: 50px;
   font-family: 'montserrat';
+  font-size: 25px;
 }
 .bodyMid > p{
   width: 90vw;
-  font-size: 20px;
 }
 .bodyBot{
   padding: 45px;
@@ -58,24 +58,193 @@ width: 700px;
   gap: 35px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
 
+  .bodyTop {
+    height: 60vh;
+    color: #ffff;
+    background: 
+      /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* Sua imagem de fundo */
+        url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    gap: 20px;
+  }
+  .bodyTop > p {
+    font-size: 15px;
+    width: 78vw;
+    text-align: center;
+  }
+
+  .bodyTop > h2 {
+    font-size: 16px;
+  }
+
+  .bodyMid{
+    height: 0vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'montserrat';
+    font-size: 17px;
+  }
+  .bodyMid > p{
+    width: 70vw;
+    font-size: 15px;
+  }
   .bodyBot{
     padding: 45px;
-    gap: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   .bodyBot > img{
-    width: 200px;
-    
-    }
+  width: 230px;
+  
+  }
   .bodyBotTx{
-    font-size: 30px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
-    gap: 35px;
   }
-  
+}
+@media screen and (max-width: 320px), (max-width: 375px) {
 
+  .bodyTop {
+    height: 60vh;
+    color: #ffff;
+    background: 
+      /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* Sua imagem de fundo */
+        url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    gap: 20px;
+  }
+  .bodyTop > p {
+    font-size: 15px;
+    width: 78vw;
+    text-align: center;
+  }
+
+  .bodyTop > h2 {
+    font-size: 16px;
+  }
+
+  .bodyMid{
+    height: 60vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'montserrat';
+    font-size: 17px;
+  }
+  .bodyMid > h2{
+    font-size: 25px;}
+  .bodyMid > p{
+    width: 70vw;
+    font-size: 16px;
+  }
+  .bodyBot{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .bodyBot > img{
+  width: 260px;
+  
+  }
+  .bodyBotTx{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+
+  .bodyTop {
+    height: 60vh;
+    color: #ffff;
+    background: 
+      /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* Sua imagem de fundo */
+        url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    gap: 20px;
+  }
+  .bodyTop > p {
+    font-size: 15px;
+    width: 78vw;
+    text-align: center;
+  }
+
+  .bodyTop > h2 {
+    font-size: 16px;
+  }
+
+  .bodyMid{
+    height: 60vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'montserrat';
+    font-size: 17px;
+  }
+  .bodyMid > h2{
+    font-size: 25px;}
+  .bodyMid > p{
+    width: 70vw;
+    font-size: 16px;
+  }
+  .bodyBot{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .bodyBot > img{
+  width: 280px;
+  
+  }
+  .bodyBotTx{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
