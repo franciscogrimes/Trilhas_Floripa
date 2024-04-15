@@ -1,3 +1,13 @@
+.img{
+  background: 
+  /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  /* Sua imagem de fundo */
+    url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+
+}
 .container {
   margin: 35px;
   display: flex;

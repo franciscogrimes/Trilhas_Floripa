@@ -1,6 +1,6 @@
 import CardTrilha from "../components/CardTrilha/index";
 import useTrilhas from "../Hooks/trilhas";
-import App from "../App";
+
 
 function trails() {
   const { trilhas, isLoading, error } = useTrilhas();

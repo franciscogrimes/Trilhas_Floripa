@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./assets/home.module.css";
+import Button from '@mui/material/Button';
+
 
 function home() {
   return (
@@ -13,10 +15,10 @@ function home() {
             Prepare-se para explorar novos horizontes e se conectar com a
             natureza através do Adventure Trails!
           </p>
-          <Link to="/trilhas" style={{ color: "#ffffff" }}>
-            <button variant="contained" size="medium">
-              Explore Trilhas
-            </button>
+          <Link to="/trilhas">
+           <Button variant="contained" size="medium"> 
+              Explorar Trilhas
+            </Button>
           </Link>
         </div>
         <div className={style.bodyMid}>
@@ -32,12 +34,17 @@ function home() {
           </p>
         </div>
         <div className={style.bodyBot}>
+          <div className={style.bodyBotTx}>
           <h2>
             Compartilhe fotos, dicas e localização das suas trilhas favoritas
           </h2>
-          <Link to="/nova-trilha" style={{ color: "#ffffff" }}>
-            <button>Cadastrar trilhas</button>
+          <Link to="/nova-trilha">
+          <Button variant="contained" size="medium"> 
+              Cadastrar Trilhas
+            </Button>
           </Link>
+          </div>
+
           <img
             src="https://www.pousadadossonhos.com.br/wp-content/uploads/2018/02/o-que-conhecer-em-florianopolis-sc-1.jpg"
             alt="Imagem da ponte Hercilio Luz"
