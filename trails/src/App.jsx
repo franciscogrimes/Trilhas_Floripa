@@ -1,23 +1,12 @@
 import React from "react";
-import CardTrilha from "./components/CardTrilha";
-import useTrilhas from "../src/Hooks/trilhas";
+import Header from "./components/CardTrilha/header";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  const { trilhas, isLoading, error } = useTrilhas();
-
-  if (isLoading) {
-    return <div>Carregando...</div>;
-  }
-
-  if (error) {
-    return <div>Erro: {error.message}</div>;
-  }
-
   return (
     <>
-      {trilhas.map((trilha, index) => {
-        return <CardTrilha dadosTrilha={trilha} key={index} />;
-      })}
+      <Header />
+      <Outlet />
     </>
   );
 }
