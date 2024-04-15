@@ -14,7 +14,6 @@ function trails() {
   }
   return (
     <>
-      <App />
       {trilhas.map((trilha, index) => {
         return <CardTrilha dadosTrilha={trilha} key={index} />;
       })}
