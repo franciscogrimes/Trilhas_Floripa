@@ -28,28 +28,27 @@
   width: 50vw;
   text-align: center;
 }
-.bodyMid{
+.bodyMid {
   height: 40vh;
   padding: 50px;
   display: flex;
   flex-direction: column;
   gap: 50px;
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-size: 25px;
 }
-.bodyMid > p{
+.bodyMid > p {
   width: 90vw;
 }
-.bodyBot{
+.bodyBot {
   padding: 45px;
   display: flex;
   gap: 170px;
 }
-.bodyBot > img{
-width: 700px;
-
+.bodyBot > img {
+  width: 700px;
 }
-.bodyBotTx{
+.bodyBotTx {
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -59,7 +58,6 @@ width: 700px;
 }
 
 @media screen and (max-width: 320px) {
-
   .bodyTop {
     height: 60vh;
     color: #ffff;
@@ -73,7 +71,7 @@ width: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-size: 12px;
+    font-size: 14px;
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -90,38 +88,36 @@ width: 700px;
     font-size: 16px;
   }
 
-  .bodyMid{
-    height: 0vh;
+  .bodyMid {
+    height: 65vh;
     padding: 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font-family: 'montserrat';
+    font-family: "montserrat";
     font-size: 17px;
   }
-  .bodyMid > p{
+  .bodyMid > p {
     width: 70vw;
     font-size: 15px;
   }
-  .bodyBot{
+  .bodyBot {
     padding: 45px;
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
-  .bodyBot > img{
-  width: 230px;
-  
+  .bodyBot > img {
+    width: 200px;
   }
-  .bodyBotTx{
+  .bodyBotTx {
     font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 }
-@media screen and (max-width: 320px), (max-width: 375px) {
-
+@media screen and (min-width: 321px) and (max-width: 376px) {
   .bodyTop {
     height: 60vh;
     color: #ffff;
@@ -136,10 +132,10 @@ width: 700px;
     background-size: cover;
     background-position: center;
     font-size: 12px;
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column;
     gap: 20px;
   }
   .bodyTop > p {
@@ -152,40 +148,36 @@ width: 700px;
     font-size: 16px;
   }
 
-  .bodyMid{
-    height: 60vh;
+  .bodyMid {
+    height: 65vh;
     padding: 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font-family: 'montserrat';
+    font-family: "montserrat";
     font-size: 17px;
   }
-  .bodyMid > h2{
-    font-size: 25px;}
-  .bodyMid > p{
+  .bodyMid > p {
     width: 70vw;
-    font-size: 16px;
+    font-size: 15px;
   }
-  .bodyBot{
+  .bodyBot {
     padding: 45px;
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
-  .bodyBot > img{
-  width: 260px;
-  
+  .bodyBot > img {
+    width: 250px;
   }
-  .bodyBotTx{
+  .bodyBotTx {
     font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 }
-@media screen and (max-width: 425px) {
-
+@media screen and (min-width: 376px) and (max-width: 426px) {
   .bodyTop {
     height: 60vh;
     color: #ffff;
@@ -216,32 +208,220 @@ width: 700px;
     font-size: 16px;
   }
 
-  .bodyMid{
+  .bodyMid {
     height: 60vh;
     padding: 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font-family: 'montserrat';
+    font-family: "montserrat";
     font-size: 17px;
   }
-  .bodyMid > h2{
-    font-size: 25px;}
-  .bodyMid > p{
+  .bodyMid > h2 {
+    font-size: 25px;
+  }
+  .bodyMid > p {
     width: 70vw;
     font-size: 16px;
   }
-  .bodyBot{
+  .bodyBot {
     padding: 45px;
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
-  .bodyBot > img{
-  width: 280px;
-  
+  .bodyBot > img {
+    width: 260px;
   }
-  .bodyBotTx{
+  .bodyBotTx {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 547px) {
+  .bodyTop {
+    height: 60vh;
+    color: #ffff;
+    background: 
+      /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* Sua imagem de fundo */
+        url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    gap: 20px;
+  }
+  .bodyTop > p {
+    font-size: 15px;
+    width: 78vw;
+    text-align: center;
+  }
+
+  .bodyTop > h2 {
+    font-size: 16px;
+  }
+
+  .bodyMid {
+    height: 60vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "montserrat";
+    font-size: 17px;
+  }
+  .bodyMid > h2 {
+    font-size: 25px;
+  }
+  .bodyMid > p {
+    width: 70vw;
+    font-size: 16px;
+  }
+  .bodyBot {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .bodyBot > img {
+    width: 280px;
+  }
+  .bodyBotTx {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 547px) and (max-width: 728px) {
+  .bodyTop {
+    height: 60vh;
+    color: #ffff;
+    background: 
+      /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* Sua imagem de fundo */
+        url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    gap: 20px;
+  }
+  .bodyTop > p {
+    font-size: 15px;
+    width: 78vw;
+    text-align: center;
+  }
+
+  .bodyTop > h2 {
+    font-size: 16px;
+  }
+
+  .bodyMid {
+    height: 50vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "montserrat";
+    font-size: 17px;
+  }
+  .bodyMid > h2 {
+    font-size: 25px;
+  }
+  .bodyMid > p {
+    width: 70vw;
+    font-size: 16px;
+  }
+  .bodyBot {
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .bodyBot > img {
+    width: 240px;
+  }
+  .bodyBotTx {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bodyTop {
+    height: 60vh;
+    color: #ffff;
+    background: 
+      /* Gradiente preto transparente de cima para baixo */ linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      /* Sua imagem de fundo */
+        url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    gap: 20px;
+  }
+  .bodyTop > p {
+    font-size: 15px;
+    width: 78vw;
+    text-align: center;
+  }
+
+  .bodyTop > h2 {
+    font-size: 16px;
+  }
+
+  .bodyMid {
+    height: 40vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "montserrat";
+    font-size: 17px;
+  }
+  .bodyMid > h2 {
+    font-size: 25px;
+  }
+  .bodyMid > p {
+    width: 70vw;
+    font-size: 16px;
+  }
+  .bodyBot {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .bodyBot > img {
+    width: 280px;
+  }
+  .bodyBotTx {
     font-size: 16px;
     display: flex;
     justify-content: center;

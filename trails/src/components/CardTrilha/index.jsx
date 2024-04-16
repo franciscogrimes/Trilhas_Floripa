@@ -2,8 +2,6 @@ import style from "./index.module.css";
 
 function CardTrilha({ dadosTrilha }) {
   return (
-    <div>
-      <div className={style.img}></div>
     <div className={style.container}>
       <div className={style.card}>
         <div className={style.imageWrapper}>
@@ -33,7 +31,6 @@ function CardTrilha({ dadosTrilha }) {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

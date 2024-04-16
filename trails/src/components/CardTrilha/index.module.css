@@ -1,13 +1,3 @@
-.img{
-  background: 
-  /* Gradiente preto transparente de cima para baixo */ linear-gradient(
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  ),
-  /* Sua imagem de fundo */
-    url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
-
-}
 .container {
   margin: 35px;
   display: flex;
@@ -57,3 +47,126 @@
 .cardCreator {
   display: flex;
 }
+@media (max-width: 426px) {
+  .card {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .cardData {
+    padding: 25px;
+  }
+  .cardHeader {
+    padding-top: 0;
+  }
+}
+@media (min-width: 767px) {
+  .container {
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #38a3a5;
+    border-radius: 10px;
+    color: #ffff;
+    border: 1px solid;
+    /* padding-left: 10px; */
+    width: 80vw;
+    height: 47vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide o card em duas colunas */
+    gap: 15px;
+  }
+
+  .imageWrapper {
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    grid-column: 1;
+  }
+
+  .cardImage {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do container */
+    height: 46.7vh;
+  }
+
+  .cardData {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cardHeader {
+    padding-top: 30px;
+  }
+  .cardBody {
+    padding-top: 15px;
+  }
+  .cardDifficulty {
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cardCreator {
+    display: flex;
+  }
+}
+@media (min-width: 1023px) {
+  .container {
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #38a3a5;
+    border-radius: 10px;
+    color: #ffff;
+    border: 1px solid;
+    /* padding-left: 10px; */
+    width: 60vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+  }
+
+  .imageWrapper {
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    grid-column: 1;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: 49.8vh;
+  }
+
+  .cardData {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cardHeader {
+    padding-top: 30px;
+  }
+  .cardBody {
+    padding-top: 15px;
+  }
+  .cardDifficulty {
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cardCreator {
+    display: flex;
+  }
+}
+
+/* @media screen and (min-width: 321px) and (max-width: 376px) {
+    @media screen and (min-width: 376px) and (max-width: 426px) {
+      @media screen and (min-width: 426px) and (max-width: 547px) {
+        @media screen and (min-width: 547px) and (max-width: 728px) {
+          @media screen and (min-width: 768px) and (max-width: 1023px) { */

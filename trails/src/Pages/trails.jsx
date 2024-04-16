@@ -1,17 +1,10 @@
 import CardTrilha from "../components/CardTrilha/index";
-import useTrilhas from "../Hooks/trilhas";
-
+import { useContext } from "react";
+import { TrilhasContext } from "../context/TrilhasContext";
 
 function trails() {
-  const { trilhas, isLoading, error } = useTrilhas();
+  const { trilhas } = useContext(TrilhasContext);
 
-  if (isLoading) {
-    return <div>Carregando...</div>;
-  }
-
-  if (error) {
-    return <div>Erro: {error.message}</div>;
-  }
   return (
     <>
       {trilhas.map((trilha, index) => {
