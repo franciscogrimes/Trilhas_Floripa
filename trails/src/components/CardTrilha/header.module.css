@@ -9,7 +9,7 @@
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  background-color: #22577a;
+  align-items: center;
 }
 .content {
   display: flex;
