@@ -1,0 +1,13 @@
+.container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1976d2;
+    font-size: 18px;
+    
+  }
+  .content {
+    display: flex;
+    gap: 20px;
+  }

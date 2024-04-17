@@ -9,7 +9,10 @@
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  background-color: #22577a;
+  align-items: center;
+  background-color: #1976d2;
+  font-size: 21px;
+  
 }
 .content {
   display: flex;
