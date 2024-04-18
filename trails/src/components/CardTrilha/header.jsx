@@ -5,8 +5,8 @@ import "boxicons";
 function header() {
   return (
     <div className={style.container}>
-      <Link to="/menu-principal">
-        <box-icon name="directions"></box-icon>
+      <Link to="/menu-principal"style={{ color: "white" }}>
+      <box-icon name='directions'></box-icon>
       </Link>
 
       <div className={style.content}>
