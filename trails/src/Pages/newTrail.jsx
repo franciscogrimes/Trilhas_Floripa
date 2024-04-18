@@ -1,7 +1,7 @@
-import useForm from "react-form-hook";
+import useForm from "react-hook-form";
 
 function newTrail() {
-  const { register } = useform();
+  const { register } = useForm();
   return (
     <>
       <h2>Cadastro de Trilhas</h2>
@@ -23,7 +23,7 @@ function newTrail() {
               },
               pattern: {
                 value: 60,
-                message: "Ops...Você atingiu o limite de 60 caracteres",
+                message: "Ops...Você atingiu o limite máximo de 60 caracteres",
               },
             })}
           />
