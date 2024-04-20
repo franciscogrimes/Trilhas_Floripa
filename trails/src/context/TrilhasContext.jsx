@@ -21,6 +21,10 @@ export const TrilhasContext = createContext();
 export const TrilhasContextProvider = ({ children }) => {
   const { trilhas, isLoading, error } = useTrilhas();
 
+  function addTrail(novaTrilha) {
+    setTrilhas((trilhasData) => [...trilhasData, novaTrilha]);
+  }
+
   if (isLoading) {
     return <div>Carregando...</div>;
   }
@@ -30,7 +34,7 @@ export const TrilhasContextProvider = ({ children }) => {
   }
 
   return (
-    <TrilhasContext.Provider value={{ trilhas }}>
+    <TrilhasContext.Provider value={{ trilhas, isLoading, error, addTrail }}>
       {children}
     </TrilhasContext.Provider>
   );

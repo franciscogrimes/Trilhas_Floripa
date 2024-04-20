@@ -1,5 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useContext } from "react";
+import { TrilhasContext } from "../context/TrilhasContext";
+
 import style from "./assets/newTrail.module.css";
 
 import Button from "@mui/material/Button";
@@ -16,8 +19,13 @@ function newTrail() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (dados) => console.log(dados);
+  const { addTrail } = useContext(TrilhasContext);
 
+  const onSubmit = (dados) => {
+    console.log(dados);
+
+    addTrail(dados);
+  };
   const [difficulty, setDifficulty] = React.useState("");
   const [type, setType] = React.useState("");
 
