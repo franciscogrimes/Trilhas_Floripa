@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../../Pages/home";
-import Trilhas from "../../Pages/trails";
-import NovaTrilha from "../../Pages/newTrail";
+import Home from "../../pages/home";
+import Trilhas from "../../pages/trails";
+import NovaTrilha from "../../pages/newTrail";
 import App from "../../App";
 
 const routes = createBrowserRouter([
